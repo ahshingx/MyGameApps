@@ -1,0 +1,14 @@
+{
+  "app_name": "PS5 Station",
+  "title": "PS5 Station",
+  "ok": "OK",
+  "game_list": "Game List",
+  "name": "Name",
+  "other_platforms": "Other Platforms",
+  "genres": "Genres",
+  "developers": "Developers",
+  "publishers": "Publishers",
+  "screenshots": "Screenshots",
+  "no_internet_connection": "No internet connection, please try again.",
+  "no_data": "Unknown"
+}

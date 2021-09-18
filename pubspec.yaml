@@ -1,0 +1,75 @@
+name: my_game_apps
+description: MyFlutterGameApplication Demo
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+      sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  provider: ^4.3.1
+  after_layout: ^1.0.7+2
+  effective_dart: ^1.2.3
+  url_launcher: ^5.5.0
+  conditional_builder: ^1.0.2
+  http: ^0.13.1
+  connectivity: ^3.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.jpg"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - i18n/en.json
+    - assets/menu.png
+    - assets/parcel.png
+    - assets/pick_parcel.png
+    - assets/arrow_right.png
+    - assets/add.png
+    - assets/plus.png
+    - assets/flag_malaysia.png
+    - assets/flag_singapore.png
+    - assets/splashscreen_rider.png
+    - assets/logo.jpg
+    - assets/ps5_logo.png
+    - assets/splashscreen.jpg
+    - assets/no_image.jpg
+  fonts:
+    - family: SF Pro Display Light
+      fonts:
+        - asset: fonts/sf_pro_display_light.ttf
+          weight: 300
+    - family: SF Pro Display Regular
+      fonts:
+        - asset: fonts/sf_pro_display_regular.ttf
+          weight: 400
+    - family: SF Pro Display Medium
+      fonts:
+        - asset: fonts/sf_pro_display_medium.ttf
+          weight: 500
+    - family: SF Pro Display Semibold
+      fonts:
+        - asset: fonts/sf_pro_display_semibold.ttf
+          weight: 600
+    - family: SF Pro Display Bold
+      fonts:
+        - asset: fonts/sf_pro_display_bold.ttf
+          weight: 700
