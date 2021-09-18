@@ -111,7 +111,7 @@ class _HomeScreenState extends State<HomeScreen>{
                 child: const Text("OK",style: TextStyle(color: Colors.orange)),
                 onPressed: () {
                   Navigator.of(context).pop(true);
-                  getGameDetails(id);
+                  // getGameDetails(id);
                 },
               ),
             ],
